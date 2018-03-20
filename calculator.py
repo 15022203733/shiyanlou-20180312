@@ -36,8 +36,8 @@ def calc(Id,before_tax):
         wage_amount = Singal_Wage(before_tax,5505,0.35)
     elif salary > 80000:
         wage_amount = Singal_Wage(before_tax,13505,0.45)
-    print(Id ,end = " ")
-    print(':',end = " ")
+    print(Id ,end = "")
+    print(':',end = "")
     print(wage_amount)
 
 # ????
